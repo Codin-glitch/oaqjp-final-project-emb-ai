@@ -15,5 +15,4 @@ def emotion_detector(text_to_analyse):
             max_score=d[key]
             dominant_emotion = key
     d['dominant_emotion'] = dominant_emotion
-    output = json.dumps(d)
-    return output
+    return d
