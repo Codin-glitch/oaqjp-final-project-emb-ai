@@ -1,6 +1,6 @@
-'''Importing necessary modules'''
+'''Program for motion detection in a given text'''
 
-from flask import Flask, request, render_template
+from flask import Flask,render_template,request
 from EmotionDetection.emotion_detector import emotion_detector
 
 app = Flask('Emotion Detector')
